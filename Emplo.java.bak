@@ -1,0 +1,17 @@
+import java.util.*;
+class Emplo
+{
+     int eid;
+
+	{
+	}
+       void disp()
+	{
+	  System.out.println(eid);
+	}
+
+	public static void main(String[] args) 
+	{
+		new Emplo().disp();
+	}
+}
