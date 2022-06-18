@@ -5,7 +5,7 @@ import java.util.*; //Method Overriding
   }                                                          
   class P extends Ride
   {
-	static void main(String Args[])                          
+	 void main(String Args[])                          
 	{
 		P p=new P();
 		p.m1();

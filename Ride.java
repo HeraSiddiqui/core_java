@@ -1,9 +1,11 @@
-import java.util.*; //Method Overriding	
+
+
+/*import java.util.*; //Method Overriding	
   class Ride
   {
 	public  void m1() {System.out.println("Parent m1()");}  
   }                                                          
-  class P extends Ride
+  class P extends Ride    // Access specifiers must be of same level or in increasing order but cannot be used as decreasing level.
   {
 	 void main(String Args[])                          
 	{
@@ -11,10 +13,6 @@ import java.util.*; //Method Overriding
 		p.m1();
 	}
 }
-
-
-
-
 
 /*import java.util.*; //Method Overriding	
   class Ride
@@ -29,7 +27,6 @@ import java.util.*; //Method Overriding
 		p.m1();
 	}
 }
-
 
 /*import java.util.*;
 class Ride
@@ -107,8 +104,6 @@ public static void main(String[] args)
 		new P().m1();
 	}
 }
-
-
 
 /*import java.util.*; //Method Overriding	Method signature in parent and child class must be same
   class Ride
